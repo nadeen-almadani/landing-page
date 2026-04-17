@@ -10,7 +10,7 @@ export default function Testmonial({description,name,experience}:Props){
     <>
     <div className="monialcard">
     
-     <p >{description}</p>
+     <p>{description}</p>
     
     <div  className="monial">
       <h3 className="monialname">{name}</h3>
