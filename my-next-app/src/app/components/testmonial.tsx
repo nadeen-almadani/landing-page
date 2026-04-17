@@ -1,11 +1,11 @@
 
 "use client";
-type data={
+type Props={
 description:string;
   name:string;
  experience:string;
 };
-export default function Testmonial({description,name,experience}:data){
+export default function Testmonial({description,name,experience}:Props){
   return(
     <>
     <div className="monialcard">
