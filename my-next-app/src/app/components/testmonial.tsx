@@ -1,6 +1,11 @@
 
 "use client";
-export default function Testmonial({description,name,experience}){
+type data={
+  description:string;
+  name:string;
+ experience:string;
+};
+export default function Testmonial({description,name,experience}:data){
   return(
     <>
     <div className="monialcard">
