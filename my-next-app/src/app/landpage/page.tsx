@@ -175,7 +175,7 @@ const monialsCard=[
 export default function Landpage(){
  
   
-  const [activeIndex,setActiveindex]=useState(null);
+  const [activeIndex,setActiveIndex]=useState<number | null>(null);
   const [inputEmail,setInputEmail]=useState("")
   const [formData,setformData]=useState({
     name:"",email:"",message:"",type:"hi",
@@ -294,7 +294,7 @@ export default function Landpage(){
         <Procard key={index}
         {...card}
         isActive={activeIndex===index}
-        onClick={()=>setActiveindex(activeIndex === index ? null :index)}
+        onClick={()=>setActiveIndex(activeIndex === index ? null :index)}
         
         />
         

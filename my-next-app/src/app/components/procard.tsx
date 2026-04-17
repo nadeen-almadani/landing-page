@@ -3,12 +3,11 @@
 type data={
   number:string;
   title:string;
-  description:string;
   isActive?:boolean;
   onClick?:()=> void;
 }
 import Image from "next/image";
-export default function Procard({number,title,description, isActive,onClick}:data){
+export default function Procard({number,title,isActive,onClick}:data){
   return(
     <>
     <div className={isActive ? "card cardActive" :"card"} onClick={onClick} >
