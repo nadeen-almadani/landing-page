@@ -1,7 +1,7 @@
 
 "use client";
 type data={
-  description:string;
+description:string;
   name:string;
  experience:string;
 };
