@@ -4,6 +4,8 @@ type data={
   number:string;
   title:string;
   description:string;
+  isActive?:boolean;
+  onClick?:()=> void;
 }
 import Image from "next/image";
 export default function Procard({number,title,description, isActive,onClick}:data){
