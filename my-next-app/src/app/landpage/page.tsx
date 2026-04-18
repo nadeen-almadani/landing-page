@@ -410,7 +410,7 @@ export default function Landpage(){
       <div className="footerContainer">
         <div className="navFooter">
         <div className="imgNav">
-        <Image src="/logo.png" width={200} height={200} alt="" />
+        <Image src="/Logo.png" width={200} height={200} alt="" />
       </div>
 
       <div className="navlink2">

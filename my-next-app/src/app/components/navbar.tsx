@@ -27,7 +27,7 @@ export default function Navbar(){
           </button>
         
       <div>
-        <Image src="/logo.png" width={200} height={200} alt="" />
+        <Image src="/Logo.png" width={200} height={200} alt="" />
       </div>
     
       <div className={`navlink ${menuOpen ? "activelink":""}`}>
