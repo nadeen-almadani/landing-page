@@ -198,7 +198,7 @@ export default function Landpage(){
   };
 
   {/*submit email in footer */}
-  function handleEmailSubmit(e:React.FormEvent<HTMLFormElement>){
+  function handleEmailSubmit(e:React.MouseEvent<HTMLButtonElement>){
   e.preventDefault();
   console.log(inputEmail)
   setInputEmail("");
