@@ -183,7 +183,7 @@ export default function Landpage(){
 
   const [error,seterror]=useState("");
   {/* submitform*/}
-  function handlesubmit(e){
+  function handlesubmit(e:React.FormEvent<HTMLFormElement>){
     e.preventDefault();
     if(!formData.name || !formData.email || !formData.message){
       
@@ -198,7 +198,7 @@ export default function Landpage(){
   };
 
   {/*submit email in footer */}
-  function handleEmailSubmit(e){
+  function handleEmailSubmit(e:React.FormEvent<HTMLFormElement>){
   e.preventDefault();
   console.log(inputEmail)
   setInputEmail("");
