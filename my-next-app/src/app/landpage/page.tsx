@@ -198,11 +198,11 @@ export default function Landpage(){
   };
 
   {/*submit email in footer */}
-  function handleEmailSubmit(e:React.MouseEvent<HTMLButtonElement>){
+  function handleEmailSubmit(e:React.FormEvent<HTMLFormElement>){
   e.preventDefault();
   console.log(inputEmail)
   setInputEmail("");
-  }
+
 
   return(
     <div> 
@@ -440,15 +440,15 @@ export default function Landpage(){
              
           </div>  
         </div>
-        <div  className="footerForm">
+        <form onSubmit={handleEmailSubmit} className="footerForm">
          <div>
           <input className="emailForm" type="email" placeholder="Email"
           value={inputEmail} onChange={(e)=>{setInputEmail(e.target.value)}}/>
          </div>
          <div>
-          <button className="buttonForm" onClick={handleEmailSubmit} type="submit">Subscribe to news</button>
+          <button className="buttonForm"  type="submit">Subscribe to news</button>
          </div>
-        </div>
+        </form>
       </div>
 
 
