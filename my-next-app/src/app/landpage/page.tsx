@@ -201,7 +201,7 @@ export default function Landpage(){
   function handleEmailSubmit(e:React.FormEvent<HTMLFormElement>){
   e.preventDefault();
   console.log(inputEmail)
-  setInputEmail("");
+  setInputEmail("");}
 
 
   return(
@@ -468,5 +468,4 @@ export default function Landpage(){
 
    
     </div>
-  )
-}
+  )}
