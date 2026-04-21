@@ -12,12 +12,12 @@ import Link from "next/link";
 
 // array of logos
 const logos=[
-   "/vector2.svg",
-  "/vector3.svg",
-  "/company logo.svg",
-  "/company logo2.svg",
-  "/company logo3.svg",
-  "/company logo4.svg",
+  "/Vector2.svg",
+  "/Vector3.svg",
+  "/Company logo.svg",
+  "/Company logo2.svg",
+  "/Company logo3.svg",
+  "/Company logo4.svg",
 ]
 
 

@@ -17,7 +17,7 @@ export default function Servicecard({head,imgcard,cardbg}:UserProbs){
         <h1  className="headcard">{head}</h1>
        <br/> <br/>
        <div className="imgpart">
-        <Image src="/icon.jpg"  width={41} height={41} alt=""/>
+        <Image src="/Icon.jpg"  width={41} height={41} alt=""/>
         <a href="">Learn More</a>
        </div>
       </div>
